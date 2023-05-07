@@ -16,8 +16,8 @@ public class ChatBot extends JFrame implements ActionListener {
     private JButton button;
     private JPanel panel;
     private boolean running = true;
-    private String weatherApiKey = "0adac0ced3506aeb142fdadd752e9bcd";
-    private String movieApiKey = "22d71222";
+    private String weatherApiKey = "";
+    private String movieApiKey = " ";
     private boolean askedForWeather = false;
     private boolean askedForMovie = false;
 
